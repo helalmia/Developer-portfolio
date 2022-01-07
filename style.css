@@ -54,13 +54,13 @@ border-radius: 20px;
 }
 #web-dev-exp{
     border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
-   border-image: linear-gradient(rgb(91, 91, 228) rgb(103, 179, 179));  
 }
 #full-stack-web-dev{
     border-left: 7px solid;
+    border-image: linear-gradient(rgb(146, 52, 146), rgb(221, 109, 89));
     border-image-slice: 1;
-   border-image: linear-gradient(rgb(105, 79, 76) rgb(150, 69, 55));
 }
 footer p{
     text-align: center;
