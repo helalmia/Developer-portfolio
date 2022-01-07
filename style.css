@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +38,30 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experince-developer{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experince-item{
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 20px;
+box-shadow: 10px 10px 20px gray;
+border-radius: 20px;
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image-slice: 1;
+   border-image: linear-gradient(rgb(91, 91, 228) rgb(103, 179, 179));  
+}
+#full-stack-web-dev{
+    border-left: 7px solid;
+    border-image-slice: 1;
+   border-image: linear-gradient(rgb(105, 79, 76) rgb(150, 69, 55));
+}
+footer p{
+    text-align: center;
 }
