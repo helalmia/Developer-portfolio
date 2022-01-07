@@ -59,7 +59,7 @@ border-radius: 20px;
 }
 #full-stack-web-dev{
     border-left: 7px solid;
-    border-image: linear-gradient(rgb(146, 52, 146), rgb(221, 109, 89));
+    border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
 footer p{
